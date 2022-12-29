@@ -1,0 +1,83 @@
+{
+  "id": "eb1ba0e4-36e0-4663-adba-bac863dd26a9",
+  "version": "2.0",
+  "name": "musicstreamer",
+  "url": "https://twitter.com/Bullishbeats/status/1515476924902088706",
+  "tests": [{
+    "id": "d46bcddc-4046-4e4b-bbad-5749c3f021a1",
+    "name": "musicstreamer",
+    "commands": [{
+      "id": "398cb96d-269f-4b25-88e4-1e4c4f1c8fc1",
+      "comment": "",
+      "command": "open",
+      "target": "https://twitter.com/Bullishbeats/status/1515476924902088706",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe40f0d9-8aed-4fa1-afad-8062932271f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-4rbku5 > .css-1dbjc4n > .r-1p0dtai .css-9pa8cd",
+      "targets": [
+        ["css=.css-4rbku5 > .css-1dbjc4n > .r-1p0dtai .css-9pa8cd", "css:finder"],
+        ["xpath=//img[@alt='Trusted Service - Single by BullishBeatsInc.']", "xpath:img"],
+        ["xpath=//div[@id='id__v2zo4qj9g7g']/a/div/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efa927c3-8cb5-41d9-aa40-c568edca8cc6",
+      "comment": "",
+      "command": "waitForElementNotPresent",
+      "target": "css=.play-button--standard",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "699f2eb1-f4df-4306-9e90-9381ba3286e9",
+      "comment": "",
+      "command": "//waitForElementPresent",
+      "target": "css=.play-button--standard",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "6035eab3-e822-49fa-945d-5fe0d44b4668",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=.svelte-dq5d60",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ae59009-1085-4a51-8bbb-87bacf096da1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"scrollable-page\"]/main/div/div[1]/div/div/div[2]/div/div/button",
+      "targets": [
+        ["css=.play-button--standard", "css:finder"],
+        ["xpath=//div[@id='scrollable-page']/main/div/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd6518df-fff3-4ae7-8711-69d21d44f4f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chrome-player",
+      "targets": [
+        ["css=.chrome-player", "css:finder"],
+        ["xpath=//div[@id='scrollable-page']/div/div/amp-chrome-player", "xpath:idRelative"],
+        ["xpath=//amp-chrome-player", "xpath:position"]
+      ],
+      "value": "//*[@id=\"scrollable-page\"]/div/div/amp-chrome-player//div/div[1]/apple-music-playback-controls//div/div[3]/amp-playback-controls-repeat//button/amp-icon"
+    }]
+  }],
+  "suites": [{
+    "id": "bb71cc30-ee2f-4ce3-8f96-0d907c2c0ec3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d46bcddc-4046-4e4b-bbad-5749c3f021a1"]
+  }],
+  "urls": ["https://twitter.com/Bullishbeats/status/1515476924902088706"],
+  "plugins": []
+}
